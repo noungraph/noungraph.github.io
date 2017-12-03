@@ -1,0 +1,17 @@
+html, body {
+	color: #0a0a0a;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.header-section{
+	background-color: #303F9F;
+	color: #fff;
+}
+.email-link{
+	color: #eee;
+}
+.email-link:hover, .email-link:focus, .email-link:active {
+	color: #fff;
+}
