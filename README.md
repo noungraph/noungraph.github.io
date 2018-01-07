@@ -1,1 +1,0 @@
-# Noungraph.com
