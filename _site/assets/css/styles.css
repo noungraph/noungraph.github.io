@@ -10,12 +10,7 @@ html, body {
 	background-color: #303F9F;
 	color: #fff;
 }
-.email-link{
-	color: #eee;
-}
-.email-link:hover, .email-link:focus, .email-link:active {
-	color: #fff;
-}
+
 .hero-unit {
   background: url("/assets/home-bg-2.svg") no-repeat center center;
   background-size: cover; }
@@ -29,38 +24,9 @@ html, body {
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8); }
-  body {
-  position: relative;
-  min-height: 100%;
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: 300;
-  color: #333; }
+ 
+ 
 
-  .color-overlay{
-
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0);
-    z-index: 99;
-
-  }
- .wrapper {
-    
-    height: 25vh;
-    overflow: hidden;
-    background-image: url(https://static1.squarespace.com/static/58dbd69f1b10e3f76d545cac/t/58ee981f03596e88e4df2a6b/1492031539710/IMG_6389.JPG?format=1500w);
-background-size: cover;
-background-position:center;
-padding-left: 0px;
-padding-right: 0px;
-
-
-}
-img{
-	object-fit: cover;
-}
 .bold-text {
   font-weight: 700; }
 
@@ -72,25 +38,13 @@ img{
  .bc-color{
  	color: black;
 		 }
-.ribbon{
-  padding: 30px 0px;
-  background-color: #000000;
+  .btn-border{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
 }
-.ribbon-text{
-  font-size: 32px;
-  font-weight: 300;
-  color: #FFF;
-}
-.us-line {
-  border-top: 4px solid #000000;
-  margin-top: 5px;
-  width: 60px; }
-
-  .section-custom {
-max-width: 1020px;
-margin: 0 auto;
-padding: 30px 0px;
-  }
-.headings-custom{
- font-weight: 500;
+.btn-border:hover{
+  background: #fff;
+  color: #000000;
 }
